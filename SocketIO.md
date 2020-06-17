@@ -2,14 +2,15 @@
 title: socketIO
 description: 
 published: true
-date: 2020-06-17T09:32:04.187Z
+date: 2020-06-17T09:32:25.202Z
 tags: javascript, socket, websockets, featherjs, socket.io
 editor: markdown
 ---
 
-![socket.io__0[1].png](/socket.io__0[1].png =125x125){.align-left}
+![socket.io__0[1].png](/socket.io__0[1].png =100x100){.align-left}
 is an realtime bidirectional connection between client and server.
 
+---
 # Installation
 
 `Node.js` Server configuration:
