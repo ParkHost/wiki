@@ -2,9 +2,9 @@
 title: socketIO
 description: 
 published: true
-date: 2020-06-17T09:32:25.202Z
-tags: javascript, socket, websockets, featherjs, socket.io
-editor: markdown
+date: 2020-06-17T09:32:29.338Z
+tags: 
+editor: undefined
 ---
 
 ![socket.io__0[1].png](/socket.io__0[1].png =100x100){.align-left}

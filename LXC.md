@@ -2,9 +2,9 @@
 title: LXD / LXC
 description: 
 published: true
-date: 2020-06-17T13:53:13.777Z
+date: 2020-06-17T13:53:18.399Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 ![linux_containers_logo[1].png](/linux_containers_logo[1].png =100x100){.align-left}

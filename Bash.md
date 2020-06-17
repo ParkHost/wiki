@@ -2,9 +2,9 @@
 title: Bash
 description: 
 published: true
-date: 2020-06-17T13:58:20.391Z
+date: 2020-06-17T13:58:24.908Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 ![bash-icon_0[1].png](/bash-icon_0[1].png =150x100){.align-left}
