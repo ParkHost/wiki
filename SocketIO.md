@@ -2,7 +2,7 @@
 title: socketIO
 description: 
 published: true
-date: 2020-06-17T09:28:09.764Z
+date: 2020-06-17T09:32:04.187Z
 tags: javascript, socket, websockets, featherjs, socket.io
 editor: markdown
 ---
@@ -11,6 +11,8 @@ editor: markdown
 is an realtime bidirectional connection between client and server.
 
 # Installation
+
+`Node.js` Server configuration:
 ```
 npm install socket.io
 ```
@@ -32,3 +34,5 @@ http.listen(3000, () => {
   console.log('listening on *:3000');
 });
 ```
+
+Client configuration:
