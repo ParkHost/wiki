@@ -1,8 +1,8 @@
 ---
 title: Chocolatey
-description: The Package Manager for ***Windows***.
+description: The Package Manager for Windows
 published: true
-date: 2020-06-17T11:35:42.369Z
+date: 2020-06-17T11:36:05.936Z
 tags: chocolatey
 editor: markdown
 ---
