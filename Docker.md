@@ -2,13 +2,13 @@
 title: Docket
 description: 
 published: true
-date: 2020-06-17T14:04:28.702Z
+date: 2020-06-17T14:05:12.310Z
 tags: 
 editor: markdown
 ---
 
 ![docker[1].png](/docker[1].png =150x125){.align-left}
-is a set of PaaS that uses OS-level virtualization to deliver software in packages called containers.
+is a PaaS that uses OS-level virtualization to deliver software in packages called containers.
 Containers are isolated from one another and bundle their own software, libraries and configuration files;
 they can communicate with each other through well-defined channels
 
