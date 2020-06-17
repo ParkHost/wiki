@@ -1,16 +1,13 @@
 ---
 title: Chocolatey
-description: Chocolatey
+description: The Package Manager for ***Windows***.
 published: true
-date: 2020-06-17T08:56:09.063Z
+date: 2020-06-17T11:35:42.369Z
 tags: chocolatey
 editor: markdown
 ---
 
-## Chocolatey
-The Package Manager for ***Windows***.
-
-
+# Overview
 ---
 - HomePage
   - https://chocolatey.org/
@@ -19,7 +16,7 @@ The Package Manager for ***Windows***.
   - https://chocolatey.org/packages
 ---
 
-### Installation:
+## Installation:
 
 In PowerShell as Administrator:
 
@@ -46,13 +43,13 @@ choco upgrade all
 ```
 ---
 
-### Install Script
+## Install Script
 
 ```powershell
 Enter here your script
 ```
 
-### Template Script
+## Template Script
 This script `includes()` all my 'basic' applications:
 
 ```powershell
