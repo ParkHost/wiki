@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-03-23T21:23:30.524Z
+date: 2021-03-24T10:11:04.069Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -46,7 +46,7 @@ Split-Path
 function ConvertTo-HashTable {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory = $true)][System.Management.Automation.PSCustomObject]$psCustomObject
+        [Parameter(Mandatory = $true)][PSCustomObject]$psCustomObject
     )
     $output = @{}
     foreach ($note in ($psCustomObject.psobject.Members).Where( { $_.MemberType -eq 'NoteProperty' })) {
