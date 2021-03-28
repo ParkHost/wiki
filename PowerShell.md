@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-03-28T08:41:58.040Z
+date: 2021-03-28T08:42:11.959Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -60,6 +60,7 @@ function ConvertTo-HashTable {
 In some use cases you need to identify a host on a unique (static) value.
 Following command gives a `4K hash` in Windows 10 **ONLY**
 
+```powershell
 (Get-CimInstance -Namespace root/cimv2/mdm/dmmap -Class MDM_DevDetail_Ext01 -Filter "InstanceID='Ext' AND ParentID='./DevDetail'").DeviceHardwareData
 ```  
 
