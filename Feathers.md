@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-03-29T09:59:47.712Z
+date: 2021-03-29T10:00:16.694Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -108,12 +108,6 @@ feathers generate hook
 
 > Feathers: [Useful Hooks Library](https://hooks-common.feathersjs.com)
 {.is-warning}
-
-some useful hook functions, can be found here: [FeathersJS Common Hooks](https://hooks-common.feathersjs.com/)
-Install it with:
-```bash
-npm install feathers-hooks-common
-```
 
 
 # Authentication
