@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-03-28T08:48:29.142Z
+date: 2021-03-28T08:48:33.388Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
