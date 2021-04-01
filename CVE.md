@@ -2,7 +2,7 @@
 title: CVE-API
 description: 
 published: true
-date: 2020-12-02T11:20:20.453Z
+date: 2021-04-01T19:10:47.322Z
 tags: mongodb, javascript, github, cve, nodejs, vuejs, express.js, bash, scripting
 editor: markdown
 dateCreated: 2020-06-07T16:02:40.269Z
@@ -204,11 +204,12 @@ Invoke-RestMethod @parameters
   
 
 # Ideas
-- [ ] Backend with FeatherJS
-	- [ ] Mongoose as DB connection..?
+- [x] Backend with FeatherJS (1 apr 2021)
+	- [x] Mongoose as DB connection
 - [ ] Update Front-end to VUE 3
-	- [ ] Better/multiple search opstions 
-- [ ] Automation Scripts to check your systems (Windows 10 / Server)
+	- [ ] Better/multiple search options 
+- [x] Automation Scripts to check windows 10
+- [ ] Script to check Windows Server (Roles)
 - [ ] Mail option
 
 ----
