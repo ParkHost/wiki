@@ -2,11 +2,21 @@
 title: C#
 description: 
 published: true
-date: 2021-04-04T09:04:21.534Z
+date: 2021-04-04T09:06:38.225Z
 tags: windows, programming, language, low level, visual studio
 editor: markdown
 dateCreated: 2021-04-04T09:02:26.012Z
 ---
 
-![c_sharp_wordmark[1].svg](/c_sharp_wordmark[1].svg){.right}
-Your content here
+![c_sharp_wordmark[1].svg](/c_sharp_wordmark[1].svg =125x125){.align-left}
+C# (pronounced see sharp, like the musical note C♯, but written with the number sign) is a general-purpose, multi-paradigm programming language encompassing static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
+
+---
+
+# Overview
+## frameworks
+### .NET Framework
+Windows
+
+#### .NET Core
+Multi platform
