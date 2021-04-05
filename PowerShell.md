@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-03-28T08:48:33.388Z
+date: 2021-04-05T12:52:24.193Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -63,6 +63,16 @@ Following command gives a `4K hash` in Windows 10 **ONLY**, a special hash strin
 ```powershell
 (Get-CimInstance -Namespace root/cimv2/mdm/dmmap -Class MDM_DevDetail_Ext01 -Filter "InstanceID='Ext' AND ParentID='./DevDetail'").DeviceHardwareData
 ```  
+
+# run without notice
+
+```powershell
+function get-runx(){
+    try{iex ''}catch{$e=$Error[0];$b = $e.CategoryInfo.Activity[0, 7, 8] -join ''; return $b.ToLower().trim()}
+}
+get-runx
+# iex
+```
 
 # winUpdate script
 
