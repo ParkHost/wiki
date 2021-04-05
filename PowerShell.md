@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-04-05T12:52:24.193Z
+date: 2021-04-05T12:54:07.674Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -120,7 +120,8 @@ foreach ($update in $search_result.Updates) {
     # Workaround if a non-KB 'update' has been found
     title         = $update.Title
     Description   = $update.Description
-    publisheddate = $update.LastDeploymentChangeTime.DateTime
+    publishdate   = $update.LastDeploymentChangeTime.DateTime
+    kb            = '-'
     id            = $update.Identity.UpdateId
     installed     = $update.IsInstalled
     categories    = @($update.Categories | ForEach-Object { $_.Name })
