@@ -2,7 +2,7 @@
 title: Windows Terminal
 description: 
 published: true
-date: 2021-04-05T19:21:57.882Z
+date: 2021-04-05T19:22:45.742Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T19:11:44.946Z
@@ -26,7 +26,9 @@ choco install microsoft-windows-terminal
 'C:/Users/%username%/Documents/Windows Terminal/'
 ```
 - The name of the file should be:
-`universe.gif`
+`universe.gif` 
+***or***
+`Sunrise.jpg`
 or you have to edit it in the config file on line **19**
 
 ## Settings:
