@@ -2,7 +2,7 @@
 title: Windows Terminal
 description: 
 published: true
-date: 2020-09-11T12:40:39.669Z
+date: 2021-04-05T19:19:57.427Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T19:11:44.946Z
@@ -60,12 +60,11 @@ or you have to edit it in the config file on line **19**
         "defaults": {
             "backgroundImageStretchMode" : "uniformToFill",
             "background": "#2b2b2b",
-            "backgroundImage": "C:/Users/%username%/Documents/Windows Terminal/universe.gif",
-            "backgroundImageOpacity" : 0.2,
+            "backgroundImage": "C:/Users/%username%/Documents/Windows Terminal/Sunrise.jpg",
+            "backgroundImageOpacity" : 0.1,
             "padding": "4, 4, 4, 4",
-            "fontFace": "Cascadia Code PL",
-            "fontSize": 13,
-            "startingDirectory": "%__CD__%"
+            "fontFace": "MesloLGM NF",
+            "fontSize": 14,
         },
         "list": [{
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
@@ -74,7 +73,6 @@ or you have to edit it in the config file on line **19**
                 "tabTitle": "Linux: Debian",
                 "source": "Windows.Terminal.Wsl",
                 "padding": "8, 8, 8, 8",
-                "fontFace": "Cascadia Code PL",
                 "fontSize": 12
             },
             {
@@ -83,7 +81,6 @@ or you have to edit it in the config file on line **19**
                 "name": "Windows PowerShell",
                 "tabTitle": "PowerHell",
                 "commandline": "powershell.exe",
-                "fontFace": "Cascadia Code PL",
                 "hidden": false
             },
             {
