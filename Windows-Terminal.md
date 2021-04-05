@@ -2,7 +2,7 @@
 title: Windows Terminal
 description: 
 published: true
-date: 2021-04-05T19:19:57.427Z
+date: 2021-04-05T19:21:57.882Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T19:11:44.946Z
@@ -19,6 +19,7 @@ choco install microsoft-windows-terminal
 ## background-image:
 
 ![Alt Text](https://media.giphy.com/media/gjs3yK6xuIDIzVqryI/giphy.gif)
+![sunrise.jpg](/sunrise.jpg =750x)
 
 - Save your image/gif in the folder:
 ```cmd
@@ -80,7 +81,7 @@ or you have to edit it in the config file on line **19**
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "tabTitle": "PowerHell",
-                "commandline": "powershell.exe",
+                "commandline": "powershell.exe",![sunrise.jpg](/sunrise.jpg)
                 "hidden": false
             },
             {
