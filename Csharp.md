@@ -2,7 +2,7 @@
 title: C#
 description: 
 published: true
-date: 2021-04-05T19:28:53.533Z
+date: 2021-04-05T19:29:48.548Z
 tags: windows, programming, language, low level, visual studio
 editor: markdown
 dateCreated: 2021-04-04T09:02:26.012Z
@@ -19,7 +19,7 @@ object-oriented (class-based), and component-oriented programming disciplines.
 ---
 
 # Overview
-## frameworks
+## frameworks ("Runtimes")
 ### .NET Framework
 Windows
 
