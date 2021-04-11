@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2020-11-22T14:03:04.664Z
+date: 2021-04-11T09:34:41.877Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -44,7 +44,7 @@ You can search(find) in exact key value pair.
 // connect to a Database
 use database_name;
 // this will index all values within a collection
-db.collection_name.createIndex( { "$**" : 1 } );
+db.collection_name.createIndex( { "$**" : "text" } );
 ```
 ---
 ### Mongo: Find
