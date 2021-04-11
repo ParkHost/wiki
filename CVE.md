@@ -2,7 +2,7 @@
 title: CVE-API
 description: 
 published: true
-date: 2021-04-01T19:11:39.102Z
+date: 2021-04-11T07:36:20.959Z
 tags: mongodb, javascript, github, cve, nodejs, vuejs, express.js, bash, scripting
 editor: markdown
 dateCreated: 2020-06-07T16:02:40.269Z
@@ -129,6 +129,21 @@ FILES="$(git diff --name-only ${CURRENTSHA} ${NEWSHA})"
 echo "${FILES}"
 echo "${FILES}" | wc -l
 
+```
+
+## Cleanup Reserved CVE's
+
+```bash
+# Select databse
+use <DatabaseName>
+
+# Show the amount of documents found
+db.<collection_name>.find({"CVE_data_meta.STATE": "RESERVED"}).count()
+
+# Delete all documents at once
+db.<collection_name>.deleteMany({{"CVE_data_meta.STATE": "RESERVED"}})
+## result:
+## { "acknowledged" : true, "deletedCount" : 96XX }
 ```
 
 # PowerShell Script
