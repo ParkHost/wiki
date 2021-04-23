@@ -2,7 +2,7 @@
 title: CVE-API
 description: 
 published: true
-date: 2021-04-11T07:42:00.211Z
+date: 2021-04-23T19:51:04.185Z
 tags: mongodb, javascript, github, cve, nodejs, vuejs, express.js, bash, scripting
 editor: markdown
 dateCreated: 2020-06-07T16:02:40.269Z
@@ -61,7 +61,16 @@ This can take up to 45 minutes.
 for f in `find /path/to/cvelist -type f -name "*.json"`
 do
         echo "Processing $f file..."
-        mongoimport --db testdb --collection CVE --file $f
+        mongoimport --db testdb --collection CVE --file /path/to/cvelist/$f
+
+```
+```powershell
+$files = gci '$env:SystemDrive\path\to\cvelist\' -Name *.json -Depth 99
+
+write-host 'starting import'
+foreach($f in $files) {
+    mongoimport --db testdb --collection CVE --file "$env:SystemDrive\path\to\cvelist\2020\$($f)"
+}
 
 ```
 ---
