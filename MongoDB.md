@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-04-11T09:34:41.877Z
+date: 2021-05-02T09:29:19.207Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -46,6 +46,19 @@ use database_name;
 // this will index all values within a collection
 db.collection_name.createIndex( { "$**" : "text" } );
 ```
+
+### Show all indexes of a collection:
+
+```js
+db.collection.getIndexes()
+``` 
+
+
+### Drop all indexes of a collection:
+
+```js
+db.collection.dropIndexes()
+``` 
 ---
 ### Mongo: Find
 ```js
