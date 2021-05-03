@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-02T10:08:20.148Z
+date: 2021-05-03T20:37:57.727Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -60,7 +60,9 @@ db.collection.getIndexes()
 db.collection.dropIndexes()
 ``` 
 ---
-### Mongo: Find
+## Mongoshell: 
+
+### Find
 ```js
 // shows all documents inside the collection
 db.collection_name.find();
@@ -76,6 +78,14 @@ db.collection_name.find({"Key": "Value"})
 db.collection_name.find({"Key.nestedKey": "Value"})
 ```
 ---
+
+### Mongo: Query
+you need to quote out every party to get an `OR` otherwise it will be an `AND`
+
+```bash
+db.CVE.find({$text: {$search: "\"Microsoft .NET Framework\" \"4.6.2\""}}).pretty()
+```
+----
 
 ## Manipulate data within the shell
 Use `patch` to change a single field without touching the other (possible) nested key - value pairs.
