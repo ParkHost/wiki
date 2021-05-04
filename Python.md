@@ -2,11 +2,13 @@
 title: Python
 description: 
 published: true
-date: 2021-05-04T13:42:33.191Z
+date: 2021-05-04T13:45:16.475Z
 tags: python, programming, language, coding
 editor: markdown
 dateCreated: 2021-02-20T18:56:10.724Z
 ---
+
+![python-developers_b02fb[1].png](/python-developers_b02fb[1].png)
 
 # Overview
 Python is a programming language that lets you work quickly and integrate systems more effectively.
