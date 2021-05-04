@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-04T13:20:29.257Z
+date: 2021-05-04T13:20:47.858Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
