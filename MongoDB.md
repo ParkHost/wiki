@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-03T20:37:57.727Z
+date: 2021-05-04T13:18:33.456Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -80,7 +80,12 @@ db.collection_name.find({"Key.nestedKey": "Value"})
 ---
 
 ### Mongo: Query
-you need to quote out every party to get an `OR` otherwise it will be an `AND`
+Assuming you already created an text index in your collection.
+With the following command you can query your collection.
+The quotes are intented, with this format it will query:
+
+**Microsoft .NET Framework** `AND` **4.6.2**
+if you leave the quotes away every word will be queried with `OR`
 
 ```bash
 db.CVE.find({$text: {$search: "\"Microsoft .NET Framework\" \"4.6.2\""}}).pretty()
