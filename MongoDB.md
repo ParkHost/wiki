@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-04T13:18:51.718Z
+date: 2021-05-04T13:20:29.257Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -60,9 +60,7 @@ db.collection.getIndexes()
 db.collection.dropIndexes()
 ``` 
 ---
-## Mongoshell: 
-
-### Find
+## Find
 ```js
 // shows all documents inside the collection
 db.collection_name.find();
@@ -79,7 +77,7 @@ db.collection_name.find({"Key.nestedKey": "Value"})
 ```
 ---
 
-### Mongo: Query
+## (Advanced) Query
 Assuming you already created an text index in your collection.
 With the following command you can query your collection.
 The quotes are intented, with this format it will query:
