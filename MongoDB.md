@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-11T18:29:23.516Z
+date: 2021-05-11T18:35:23.085Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -89,10 +89,15 @@ if you leave the quotes away every word will be queried with `OR`
 db.CVE.find({$text: {$search: "\"Microsoft .NET Framework\" \"4.6.2\""}}).pretty()
 ```
 
+---
 
-after researching speeding up my queries i found out the `AND` which gives the best results is the slowest form of searching/quering.
+> After some researching about speeding up my queries i found out the `AND` operator,which gives the best results is also the slowest form of searching/quering.
+{.is-warning}
 
-I found a solution through this, with `AND` operator which will query multi conditions in serial:
+I found out it will query all the documents to match the criteria, you need to flip it around, **filter** your search each step with a álà playbook style, see below for an example, you can regex what you want and build more `AND` steps along the way.
+
+
+
 
 ```bash
 db.Collection.find({
