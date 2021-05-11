@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-11T18:28:56.202Z
+date: 2021-05-11T18:29:23.516Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -102,7 +102,7 @@ db.Collection.find({
 		}
 	},
 	{
-		"text.path.to.regex": {
+		"text.path.to.search": {
 			$regex: /your search query/i
 		}
 	}]
