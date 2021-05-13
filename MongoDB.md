@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-13T17:33:07.176Z
+date: 2021-05-13T17:33:34.102Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -147,7 +147,9 @@ db.collection_Name.deleteMany
 ---
 ## Rename Collection
 
+```bash
 db.collection_name.renameCollection("New_Collection_Name")
+```
 
 ---
 ## Drop Collection or Database
