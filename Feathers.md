@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-05-16T10:50:13.570Z
+date: 2021-05-16T10:50:37.041Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -214,7 +214,7 @@ Example:
 GET /{Feathers_Service}?[$text][$search]={search_value}
 ```
 
-> more info [Querying Docu](https://docs.feathersjs.com/api/databases/querying.html)
+> more info [Feathers Querying Docu](https://docs.feathersjs.com/api/databases/querying.html)
 {.is-warning}
 
 
