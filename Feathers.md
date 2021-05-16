@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-05-16T10:49:21.299Z
+date: 2021-05-16T10:50:01.044Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -215,7 +215,7 @@ GET /{Feathers_Service}?[$text][$search]={search_value}
 ```
 
 > more info [Querying Docu](https://docs.feathersjs.com/api/databases/querying.html)
-{.is-success}
+{.is-warning}
 
 
 Had some struggling with $regex / $text and $search.
