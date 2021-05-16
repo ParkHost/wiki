@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-05-16T10:51:08.439Z
+date: 2021-05-16T10:56:55.106Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
