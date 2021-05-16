@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-05-16T10:50:01.044Z
+date: 2021-05-16T10:50:13.570Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -223,5 +223,5 @@ First you need to whitelist them in the options of the Feathers Service,
 Second Regex needs to be formatted in a `Before Hook`
 
 > Source: https://github.com/feathersjs/feathers/issues/334#issuecomment-234432108
-
+{.is-info}
 ----
