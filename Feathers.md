@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-03-29T10:00:21.233Z
+date: 2021-05-16T10:49:21.299Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -204,3 +204,24 @@ module.exports = function(app) {
 {.is-success}
 
 # Express REST API
+
+Feathers is using the REST structure to query data.
+Querying can easly be done with defining your specific endpoint.
+
+Example:
+
+```html
+GET /{Feathers_Service}?[$text][$search]={search_value}
+```
+
+> more info [Querying Docu](https://docs.feathersjs.com/api/databases/querying.html)
+{.is-success}
+
+
+Had some struggling with $regex / $text and $search.
+First you need to whitelist them in the options of the Feathers Service,
+Second Regex needs to be formatted in a `Before Hook`
+
+> Source: https://github.com/feathersjs/feathers/issues/334#issuecomment-234432108
+
+----
