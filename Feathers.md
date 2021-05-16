@@ -2,7 +2,7 @@
 title: Feathersjs
 description: 
 published: true
-date: 2021-05-16T10:50:37.041Z
+date: 2021-05-16T10:51:08.439Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-07T19:25:20.708Z
@@ -200,13 +200,13 @@ module.exports = function(app) {
 };
 ```
 
-> [AuthenticationService](https://docs.feathersjs.com/api/authentication/service.html#app-on-login)
+> [Authentication Service](https://docs.feathersjs.com/api/authentication/service.html#app-on-login)
 {.is-success}
 
 # Express REST API
 
 Feathers is using the REST structure to query data.
-Querying can easly be done with defining your specific endpoint.
+Querying can easily be done with defining your specific endpoint.
 
 Example:
 
