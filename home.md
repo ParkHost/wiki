@@ -2,7 +2,7 @@
 title: Welcome at ParkHost Wiki
 description: 
 published: true
-date: 2021-05-17T18:11:21.279Z
+date: 2021-05-17T18:27:44.195Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T14:37:05.851Z
@@ -18,9 +18,7 @@ In this digital-evolution, we all need to know what is keeping us busy every sin
 {.is-success}
 
 ---
-**Code let you create things with just some `knowledge` and your `mind`. Solve puzzles and how you going to connect the dots.
-I'm passionate about infrastructure (where and how do you run your code and why?).
-Things like Docker / CI/CD and Kubernetes got my attention lately**
+**Code let you create things with just some `knowledge` and your `mind`. Solve puzzles and how you going to connect the dots.**
 
 >***Be not limited by your perception***
 {.is-info}
