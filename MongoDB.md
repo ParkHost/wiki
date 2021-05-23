@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-13T17:33:34.102Z
+date: 2021-05-23T21:01:53.977Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -116,6 +116,24 @@ db.Collection.find({
 
 > The regex: `/your search query/i` , will an exact search over the first `$text` search
 {.is-success}
+
+
+### another example
+
+```js
+db.cves.find( {
+      $and : [
+		{ $text: { $search: "Value_X" } },
+        { 
+			$or : [ 
+					{"path.to.key" : {$regex: /Value X/i}},
+          {"path.to.other.key" : {$regex: /Value X/i}}
+      ]
+    }
+  ]
+})
+```
+
 
 
 ----
