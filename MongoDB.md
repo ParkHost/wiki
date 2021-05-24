@@ -2,7 +2,7 @@
 title: MongoDB
 description: 
 published: true
-date: 2021-05-23T21:07:19.486Z
+date: 2021-05-24T08:38:27.219Z
 tags: mongodb, database, nosql, mongoose
 editor: markdown
 dateCreated: 2020-06-04T20:56:01.677Z
@@ -122,17 +122,15 @@ db.Collection.find({
 **\$and** statemant with multi **\$or** statements, searching all documents where `Value X` is present.
 And matches those with the 2 statements in the **\$or** , if it is in `path.to.key` OR `path.to.other.key`
 ```js
-db.cves.find( {
-      $and : [
-				{ $text: { $search: "Value X" } },
-    { $or : 
-     [ 
-					{"path.to.key" : {$regex: /Value X/i}},
-          {"path.to.other.key" : {$regex: /Value X/i}}
-		]
-		}
-	]}
-)
+db.collection.find({
+	$and: [
+		{ $text: {$search: "Value X"}},
+		{ $or: [
+			{"path.to.key" : {$regex: /Value X/i}},
+    	{"path.to.other.key" : {$regex: /Value X/i}}
+		]}
+	]
+})
 ```
 
 
