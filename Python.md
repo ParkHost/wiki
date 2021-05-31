@@ -2,7 +2,7 @@
 title: Python
 description: 
 published: true
-date: 2021-05-04T13:50:15.635Z
+date: 2021-05-31T11:40:25.918Z
 tags: python, programming, language, coding
 editor: markdown
 dateCreated: 2021-02-20T18:56:10.724Z
@@ -42,11 +42,11 @@ https://pypi.org/
 With a Python Virtual Environment you only install the dependencies  in the project itself and not globally (system wide))
 
 ```bash
-# pip         = command
+# python      = command
 # -m (switch) = Module
 # first venv  = Module name
 # second venv = Name of your Virtual Environment
-pip -m venv venv
+python -m venv venv
 ```
 
 > https://docs.python.org/3/library/venv.html
