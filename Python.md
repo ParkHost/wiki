@@ -2,7 +2,7 @@
 title: Python
 description: 
 published: true
-date: 2021-05-31T11:52:47.381Z
+date: 2021-05-31T13:54:00.794Z
 tags: python, programming, language, coding
 editor: markdown
 dateCreated: 2021-02-20T18:56:10.724Z
