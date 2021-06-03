@@ -2,7 +2,7 @@
 title: CVE-API
 description: 
 published: true
-date: 2021-06-03T19:08:05.852Z
+date: 2021-06-03T19:56:12.292Z
 tags: mongodb, javascript, github, cve, nodejs, vuejs, express.js, bash, scripting
 editor: markdown
 dateCreated: 2020-06-07T16:02:40.269Z
@@ -246,16 +246,16 @@ db.cves.ensureIndex({
 ```
 
 ```js
-db.collection.find({
+// query the cves database
+db.cves.find({
     $and: [
-        { $text:
-            {$search: "Value_X" }
-        },
-        { "some.key.value": 
-            {$regex: /Value_X/i}
-        }
-    ]
-})
+			{ $text: { $search: "Foxit Reader 9.7.1.29511" }  },
+			{ $or : [
+				{ "description.description_data.value": { $regex: /Foxit Reader 9.7.1.29511/i } },
+				{ "affects.vendor.vendor_data.product.product_data.product_name": { $regex: /Foxit Reader 9.7.1.29511/i } }                 
+			]
+   }] 
+}).count()
 ```
   
   
