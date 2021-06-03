@@ -2,7 +2,7 @@
 title: CVE-API
 description: 
 published: true
-date: 2021-05-17T19:02:14.464Z
+date: 2021-06-03T19:08:05.852Z
 tags: mongodb, javascript, github, cve, nodejs, vuejs, express.js, bash, scripting
 editor: markdown
 dateCreated: 2020-06-07T16:02:40.269Z
@@ -227,6 +227,35 @@ $parameters = @{
 Invoke-RestMethod @parameters
 
 
+```
+
+# Query MONGOdb...
+
+to find the sweet spot between results and time it take you have some struggle with MongoDB..
+It needs to be a quick search to find if you system is vulnerable.
+
+You can make custom queries by indexing the right fields in the documents (json):
+
+
+```js
+db.cves.ensureIndex({
+	"description.description_data.value": "text",
+  "CVE_data_meta.ID": "text",
+  "affects.vendor.vendor_data.product.product_data.product_name": "text"
+})
+```
+
+```js
+db.collection.find({
+    $and: [
+        { $text:
+            {$search: "Value_X" }
+        },
+        { "some.key.value": 
+            {$regex: /Value_X/i}
+        }
+    ]
+})
 ```
   
   
