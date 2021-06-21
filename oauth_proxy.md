@@ -2,7 +2,7 @@
 title: OAuth Proxy
 description: 
 published: true
-date: 2021-06-21T12:02:41.401Z
+date: 2021-06-21T12:05:23.141Z
 tags: oauth, oauth 2.0, proxy
 editor: markdown
 dateCreated: 2021-06-21T11:22:41.057Z
@@ -25,9 +25,10 @@ What if you build an app that needs to be used by different kind of customers wh
 
 # Benefits
 
-- Fast, reliable and lightweight.
+- Fast and lightweight it only uses one library and is based on JavaScript.
+- Reliable (Geo redundant)
 - Scalable to the moon and back
-- No need to have own infrastructure or knowledge of authentication "best practices".
+- No need to have own infrastructure or knowledge of authentication.
 - Session data is stored in a separate database and cleaned automatically after one month.
 
 # Demo
