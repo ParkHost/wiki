@@ -2,7 +2,7 @@
 title: OAuth Proxy
 description: 
 published: true
-date: 2021-06-21T12:01:43.991Z
+date: 2021-06-21T12:02:41.401Z
 tags: oauth, oauth 2.0, proxy
 editor: markdown
 dateCreated: 2021-06-21T11:22:41.057Z
@@ -19,13 +19,14 @@ Single Sign On is de-facto standard in the IT industry, every app needs to be co
 
 What if you build an app that needs to be used by different kind of customers which each its own OAuth Provider, how would you handle the authentication flows?
 
-> **Exactly you can use the OAuth Proxy of Parkhost.**
+> **Exactly you can use the OAuth Proxy of Parkhost.eu**
 {.is-success}
 
 
 # Benefits
 
 - Fast, reliable and lightweight.
+- Scalable to the moon and back
 - No need to have own infrastructure or knowledge of authentication "best practices".
 - Session data is stored in a separate database and cleaned automatically after one month.
 
