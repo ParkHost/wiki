@@ -2,7 +2,7 @@
 title: OAuth Proxy
 description: 
 published: true
-date: 2021-06-21T20:02:15.025Z
+date: 2021-06-21T20:14:47.477Z
 tags: oauth, oauth 2.0, proxy
 editor: markdown
 dateCreated: 2021-06-21T11:22:41.057Z
@@ -35,9 +35,7 @@ What if you build an app that needs to be used by different kind of customers wh
 # Overview
 
 -----
-
-![oauth_proxy_diagram_v2.png](/oauth_proxy_diagram_v2.png)
-
+ ![oauth_proxy_v3(1).png](/oauth_proxy_v3(1).png)
 
 
 
