@@ -2,7 +2,7 @@
 title: OAuth Proxy
 description: 
 published: true
-date: 2021-06-21T12:21:21.754Z
+date: 2021-06-21T12:27:10.546Z
 tags: oauth, oauth 2.0, proxy
 editor: markdown
 dateCreated: 2021-06-21T11:22:41.057Z
@@ -25,7 +25,7 @@ What if you build an app that needs to be used by different kind of customers wh
 
 # Benefits
 
-- Fast and very lightweight (as a proxy should be).
+- Fast and lightweight(as a proxy should be).
 - Reliable (Geo redundant)
 - Scalable to the moon and back
 - No need to have own infrastructure or knowledge of authentication.
