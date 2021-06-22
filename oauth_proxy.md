@@ -2,7 +2,7 @@
 title: OAuth Proxy
 description: 
 published: true
-date: 2021-06-22T10:39:43.105Z
+date: 2021-06-22T10:43:44.369Z
 tags: oauth, oauth 2.0, proxy
 editor: markdown
 dateCreated: 2021-06-21T11:22:41.057Z
@@ -28,9 +28,9 @@ What if you build an app that needs to be used by different kind of customers wh
 
 - Fast and lightweight/serverless (as a proxy should be).
 - Reliable (Geo redundant)
-- Scalable to the moon and back
+- Scalable to the moon
 - No need to have own infrastructure or knowledge of authentication.
-- Session data is stored in a separate database and cleaned automatically after one month.
+- Session data is stored in a separate database and cleaned automatically.
 
 # Overview
 
