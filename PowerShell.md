@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-04-05T12:54:07.674Z
+date: 2021-06-25T12:08:26.756Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -14,9 +14,10 @@ You can use it within the shell or as scripting `.ps1`
 PowerShell is a cross-platform task automation and configuration management framework, consisting of a command-line shell and scripting language.
 
 ---
-# Requirements
+# Secure Application Model
 
-Regular Expresion in Powershell is `powerfull`.
+Using SAM to connect to all your partners
+https://docs.microsoft.com/en-us/powershell/partnercenter/multi-factor-auth?view=partnercenterps-3.0
 
 # Commands
 ## -Match (param)
