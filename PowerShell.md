@@ -2,7 +2,7 @@
 title: PowerShell
 description: 
 published: true
-date: 2021-06-25T12:45:49.327Z
+date: 2021-06-25T14:20:21.587Z
 tags: scripting, windows, microsoft, powershell, automation
 editor: markdown
 dateCreated: 2020-06-15T20:11:47.768Z
@@ -18,6 +18,9 @@ PowerShell is a cross-platform task automation and configuration management fram
 
 Using SAM to connect to all your partners
 https://docs.microsoft.com/en-us/powershell/partnercenter/multi-factor-auth?view=partnercenterps-3.0
+
+EXOv2 unattended:
+https://docs.microsoft.com/en-us/powershell/exchange/app-only-auth-powershell-v2?view=exchange-ps
 
 # Commands
 ## -Match (param)
